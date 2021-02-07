@@ -15,7 +15,7 @@ public class LocParcare {
         nrLocParcare        = nrLoc;
     }
 
-    // creez constructorul cu parametrii (constructor folosit cand locul de parcare, cand masina ocupa fictiv locul respectiv.
+    // creez constructorul cu parametrii (constructor folosit pentru locul de parcare, cand masina ocupa fictiv locul respectiv).
     public LocParcare(String nr, int nrLoc){
         esteOcupat          = true;
         nrInmatriculare     = nr;
